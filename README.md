@@ -1,6 +1,8 @@
 
 # Setup
-This initial app contains everything I need to setup a rails app
+This initial app contains everything I need to setup a rails app correctly where it is functioning with zeus and guard and rspec and live reload.
+
+This setup would work best for tmux users and vim users...
 
 * Tmuxinator
 * Live-Reload
