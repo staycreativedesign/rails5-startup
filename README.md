@@ -3,6 +3,7 @@
 # Setup
 This initial app contains everything I need to setup a rails app
 
+Tmuxinator
 Live-Reload
 Live-Reload-Goard
 Zeus
@@ -18,17 +19,17 @@ Faker
 
 
 # Tmuxinator Setup
+```
+  name: your-project-name
+  root: ~/Projects/your-project-name/
 
-name: your-project-name
-root: ~/Projects/your-project-name/
+  windows:
+    - editor: vim
+    - zeus-server: sleep 2 && zeus s
+    - zeus-guard:
+        layout: main-vertical
+        panes:
+          - guard
+    - rspec:
 
-windows:
-  - editor: vim
-  - zeus-server: sleep 2 && zeus s
-  - zeus-guard:
-      layout: main-vertical
-      panes:
-        - guard
-  - rspec:
-
-
+```
