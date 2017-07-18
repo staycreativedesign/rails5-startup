@@ -1,24 +1,34 @@
-# README
+#### ~/.tmuxinator/your-project-name.yml
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Setup
+This initial app contains everything I need to setup a rails app
 
-Things you may want to cover:
+Live-Reload
+Live-Reload-Goard
+Zeus
+Zeus-Guard
+RSpec
+Capybara
+FactoryGirl
+Should Matchers
+Letter Opener
+Haml
+PG
+Faker
 
-* Ruby version
 
-* System dependencies
+# Tmuxinator Setup
 
-* Configuration
+name: your-project-name
+root: ~/Projects/your-project-name/
 
-* Database creation
+windows:
+  - editor: vim
+  - zeus-server: sleep 2 && zeus s
+  - zeus-guard:
+      layout: main-vertical
+      panes:
+        - guard
+  - rspec:
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
