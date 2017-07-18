@@ -1,24 +1,28 @@
-#### ~/.tmuxinator/your-project-name.yml
 
 # Setup
 This initial app contains everything I need to setup a rails app
 
-Tmuxinator
-Live-Reload
-Live-Reload-Goard
-Zeus
-Zeus-Guard
-RSpec
-Capybara
-FactoryGirl
-Should Matchers
-Letter Opener
-Haml
-PG
-Faker
+* Tmuxinator
+* Live-Reload
+* Live-Reload-Goard
+* Zeus
+* Zeus-Guard
+* RSpec
+* Capybara
+* FactoryGirl
+* Should Matchers
+* Letter Opener
+* Haml
+* PG
+* Faker
+* Letter-opener
+* Friendly_id
 
 
 # Tmuxinator Setup
+
+#### ~/.tmuxinator/your-project-name.yml
+
 ```
   name: your-project-name
   root: ~/Projects/your-project-name/
